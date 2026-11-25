@@ -21,6 +21,7 @@ English · [简体中文](docs/README.zh-CN.md)
 - [Features](#features)
 - [Download and install](#download-and-install)
 - [Quick start](#quick-start)
+- [A tour of the settings](#a-tour-of-the-settings)
 - [The music card](#the-music-card)
 - [Desktop skins (Rainmeter)](#desktop-skins-rainmeter)
 - [FAQ](#faq)
@@ -41,11 +42,6 @@ English · [简体中文](docs/README.zh-CN.md)
 | **Auto-update** | A note slides in when a new version is out. One click updates it. |
 
 <p align="center">
-  <img src="docs/images/appearance.png" alt="Appearance settings" width="49%">
-  <img src="docs/images/beat_bar.png" alt="Beat bar settings" width="49%">
-</p>
-
-<p align="center">
   <img src="docs/images/beat_styles.png" alt="Beat bar styles" width="70%">
 </p>
 
@@ -56,9 +52,10 @@ English · [简体中文](docs/README.zh-CN.md)
 ## Download and install
 
 1. Open **[Releases](https://github.com/NineSong0630/MyDock/releases/latest)** and download `MyDock-Setup-x.x.x.exe`.
-2. Run it. If Windows shows **"Windows protected your PC"**, click **More info → Run anyway**.
+2. Run it and pick your language (English or 简体中文). MyDock uses the same language. You can change it later in **Settings → General → Language**.
+3. If Windows shows **"Windows protected your PC"**, click **More info → Run anyway**.
    This message appears for new apps that aren't signed with a paid certificate yet; it's not a virus warning.
-3. MyDock starts by itself after installing, and starts with Windows from then on (you can turn that off in **Settings → General**).
+4. MyDock starts by itself after installing, and starts with Windows from then on (you can turn that off in **Settings → General**).
 
 **Requirements:** Windows 10 or 11, 64-bit.
 
@@ -72,6 +69,44 @@ English · [简体中文](docs/README.zh-CN.md)
 6. **Save your layout.** **Settings → Layout templates** → type a name → **Save current layout**.
 
 > Tip: almost everything has a right-click menu. If you're not sure how to do something, right-click it.
+
+## A tour of the settings
+
+Open Settings by right-clicking an empty part of the Dock → **Settings**. Every change shows up right away.
+
+### Appearance
+Theme, your own colour, *Match wallpaper colours*, icon size, magnification, spacing, rows, transparency and corner radius. The preview at the top updates as you go.
+
+<p align="center"><img src="docs/images/appearance.png" alt="Appearance page" width="80%"></p>
+
+### Beat bar
+Show bars above the Dock and/or a large spectrum on the desktop (card, mirror or ring, with the cover inside). Pick one of 10 styles and a colour mode; *Sensitivity* helps if the bars barely move at low volume.
+
+<p align="center"><img src="docs/images/beat_bar.png" alt="Beat bar page" width="80%"></p>
+
+### Apps
+Everything on the Dock in one list: add from your installed apps, choose a file, or add a power button (shut down / sleep / restart / lock). Reorder, rename or remove with the buttons at the bottom.
+
+<p align="center"><img src="docs/images/apps.png" alt="Apps page" width="80%"></p>
+
+### Volume ball
+A small ball on the edge of the screen. Click it to change the volume, switch speakers and control music. Choose its style, where the panel opens and how see-through it is when you're not using it.
+
+<p align="center"><img src="docs/images/volume_ball.png" alt="Volume ball page" width="80%"></p>
+
+### Built-in widgets
+Turn each widget on and set its own options. For the music card: style (cards, bar, big cover, vinyl, lyrics), lyrics, a pop-up when the song changes, a blurred cover background and *Hide when nothing is playing*. **Appearance** sets one look for all widgets and **Placement** lines them up neatly.
+
+<p align="center"><img src="docs/images/widgets.png" alt="Built-in widgets page" width="80%"></p>
+
+### Desktop skins
+Built-in skins you can recolour with one click, plus a 3-step guide for installing skins you download (see [Desktop skins](#desktop-skins-rainmeter)).
+
+### Layout templates
+Type a name and click **Save current layout**. Switch between your saved looks (for example *Work* and *Game night*) with one click, here or from the tray icon.
+
+### General
+Start with Windows, language, help text, Dock position, display mode (*On desktop*, *Always on top*, *Auto-hide*), multiple screens, window previews, unread badges, keyboard shortcuts, backup / export / import and automatic updates.
 
 ## The music card
 
@@ -120,6 +155,12 @@ Click the volume icon on the music card and switch on **Change the speaker for m
 <summary><b>Windows says "Windows protected your PC". Is it safe?</b></summary>
 
 That's Microsoft SmartScreen. It shows for new apps without a paid code-signing certificate. Click **More info → Run anyway**. Only download MyDock from this page's Releases.
+</details>
+
+<details>
+<summary><b>How do I change the language?</b></summary>
+
+**Settings → General → Language**. MyDock asks whether to restart now. It closes for a few seconds, shows *"back in a moment"* at the top of the screen and opens again in the new language.
 </details>
 
 <details>
