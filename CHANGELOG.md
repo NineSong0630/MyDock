@@ -22,6 +22,8 @@ First official release. 第一个正式版本。
   换语言会先问你，然后自动重启，屏幕上方显示「马上回来」。
 - **Beat bar shape:** number of bars (up to 160), length and thickness; turn it across, upright on the left / right edge, upside down or to any angle (Shift + scroll on it).
   律动条形状：可以调条数（最多 160）、长度、粗细；横放、竖着贴左边 / 右边、倒过来，或者斜着放任何角度（在频谱上 Shift + 滚轮）。
+- **Livelier beat bar:** it follows each song's own loudness, so quiet songs and low volume jump just as high; low, mid and high bars all move, and every beat drops back crisply.
+  律动条更灵敏：自动跟着每首歌的音量调整，小声的歌和低音量也一样跳得高；低音、中音、高音都会动，每个节拍落下得更干脆。
 - Music cards change their layout when you make them bigger (big vinyl or cover on top, song below).
   音乐卡片拉大后排版会跟着变（大唱片或大封面在上面，歌名在下面）。
 - Volume ball and music card: switch speakers from a button; play and pause now have different icons.

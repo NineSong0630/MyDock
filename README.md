@@ -80,7 +80,7 @@ Theme, your own colour, *Match wallpaper colours*, icon size, magnification, spa
 <p align="center"><img src="docs/images/appearance.png" alt="Appearance page" width="80%"></p>
 
 ### Beat bar
-Show bars above the Dock and/or a large spectrum on the desktop (card, mirror or ring, with the cover inside). Pick one of 10 styles and a colour mode; *Sensitivity* helps if the bars barely move at low volume.
+Show bars above the Dock and/or a large spectrum on the desktop (card, mirror or ring, with the cover inside). Pick one of 10 styles and a colour mode; The bars follow the music's own loudness, so they jump just as much when a song or Windows is turned down; turn *Sensitivity* up for bigger jumps.
 
 **Desktop spectrum shape:** set the number of bars (up to 160), the length and the thickness, and turn it any way you like: across, upright along the left or right edge of the screen, upside down, or tilted at any angle. You can also drag its edges to stretch it, or hold **Shift** and scroll on it to turn it.
 
