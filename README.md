@@ -82,6 +82,8 @@ Theme, your own colour, *Match wallpaper colours*, icon size, magnification, spa
 ### Beat bar
 Show bars above the Dock and/or a large spectrum on the desktop (card, mirror or ring, with the cover inside). Pick one of 10 styles and a colour mode; *Sensitivity* helps if the bars barely move at low volume.
 
+**Desktop spectrum shape:** set the number of bars (up to 160), the length and the thickness, and turn it any way you like: across, upright along the left or right edge of the screen, upside down, or tilted at any angle. You can also drag its edges to stretch it, or hold **Shift** and scroll on it to turn it.
+
 <p align="center"><img src="docs/images/beat_bar.png" alt="Beat bar page" width="80%"></p>
 
 ### Apps
@@ -95,7 +97,7 @@ A small ball on the edge of the screen. Click it to change the volume, switch sp
 <p align="center"><img src="docs/images/volume_ball.png" alt="Volume ball page" width="80%"></p>
 
 ### Built-in widgets
-Turn each widget on and set its own options. For the music card: style (cards, bar, big cover, vinyl, lyrics), lyrics, a pop-up when the song changes, a blurred cover background and *Hide when nothing is playing*. **Appearance** sets one look for all widgets and **Placement** lines them up neatly.
+Turn each widget on and set its own options. For the music card: style (cards, bar, big cover, vinyl, lyrics), lyrics, a pop-up when the song changes, a blurred cover background and *Hide when nothing is playing*. Make a music card bigger and its layout changes with it: the vinyl and cover styles put a large record or cover on top with the song below. The volume button on the card also lets you switch speakers. **Appearance** sets one look for all widgets and **Placement** lines them up neatly.
 
 <p align="center"><img src="docs/images/widgets.png" alt="Built-in widgets page" width="80%"></p>
 
