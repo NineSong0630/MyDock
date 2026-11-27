@@ -6,8 +6,12 @@ All versions are on the [Releases](https://github.com/NineSong0630/MyDock/releas
 
 - **Fixed a crash when adding a program** (or picking a file / colour in a Windows dialog). MyDock's crash logger treated harmless errors inside Windows' own dialogs as crashes and, by recording every thread hundreds of times, crashed MyDock itself.
   修复添加程序（或在 Windows 对话框里选文件 / 选颜色）时 MyDock 闪退：崩溃记录器把 Windows 对话框内部无害的错误当成崩溃，反复记录所有线程，结果自己把 MyDock 弄崩了。
-- **Starts faster:** the Dock shows first and everything else loads right after; the app is about 45 MB smaller (unused parts of Qt left out), so there's less to read and scan when Windows starts. Installer 47 → 33 MB.
-  启动更快：先显示 Dock，其他部分随后加载；去掉用不到的 Qt 组件，程序小了约 45 MB，开机时要读取和扫描的文件更少。安装包从 47 MB 降到 33 MB。
+- **YouTube background play works:** the player now runs as its own browser process, so it can start playing on its own while hidden, and it shows no window and no taskbar icon. Right-click the music card → *Show player window* to sign in once if you like.
+  YouTube 后台播放能用了：播放器改用独立的浏览器进程，藏起来也能自己开始播放，完全看不到窗口，也没有任务栏图标。想登录的话，在音乐卡片上右键 →「显示播放器窗口」登录一次即可。
+- **What's new notice:** after every update, MyDock shows what changed — including any versions you skipped.
+  更新公告：以后每次更新后，MyDock 会弹出这次改了什么；跳过的版本也会一起列出来。
+- **Starts faster:** the Dock shows first and everything else loads right after; the app is about 45 MB smaller (unused parts of Qt left out). Installer 47 → 33 MB.
+  启动更快：先显示 Dock，其他部分随后加载；去掉用不到的 Qt 组件，程序小了约 45 MB。安装包从 47 MB 降到 33 MB。
 - crash.log no longer grows forever.
   crash.log 不再无限变大。
 
