@@ -2,6 +2,27 @@
 
 All versions are on the [Releases](https://github.com/NineSong0630/MyDock/releases) page. MyDock updates itself, so you don't need to download them by hand.
 
+## 1.0.3 — 2026-11-27
+
+- **New Wallpaper page.** Pictures or video wallpapers, auto-change on a timer, built-in original wallpapers, and the song's cover as wallpaper while music plays. Wallpapers come in pages and groups, you can hide the ones you don't want, and a small note tells you what you picked.
+  新增「壁纸」页：图片 / 视频壁纸、定时自动轮换、内置原创壁纸，放歌时还能把歌曲封面当壁纸。壁纸分页、分组，不想看的可以隐藏，点了会有小提示告诉你换成了哪张。
+- **Wallpaper Engine's videos without Wallpaper Engine.** Videos you downloaded in Wallpaper Engine play straight from MyDock, drawn by the GPU just like Wallpaper Engine does — as smooth (even 4K 120 fps), on every screen, with less CPU and memory. MyDock can close Wallpaper Engine for you (it asks first) so only one app runs.
+  不开 Wallpaper Engine 也能播它下载的视频：MyDock 直接用显卡播放，跟 Wallpaper Engine 一样顺（4K 120 帧也行），每块屏幕都有，CPU 和内存更省。MyDock 可以帮你关掉 Wallpaper Engine（会先问你），只留一个程序在跑。
+- **Wallpaper Engine scenes** are listed too: click one and Wallpaper Engine plays it.
+  Wallpaper Engine 的场景壁纸也会列出来，点一下就交给它播放。
+- **Sharp song covers:** when the cover from the player is small and blurry, MyDock looks up a high-resolution one (title and artist are sent to Apple's iTunes search, once per song, cached locally, at most 50 MB; can be turned off in settings).
+  高清封面：播放器给的封面太小太糊时，MyDock 会找一张高清的（歌名和歌手会发给 Apple 的 iTunes 搜索，每首只查一次，存在本机，最多 50 MB；设置里可以关）。
+- **New music card looks:** clear cassette, record sleeve, CD and polaroid, in any colour; records can be clear or fade to clear. One-click full shuffle starts faster with no white flash.
+  音乐卡片新样式：透明卡带、唱片封套、CD、拍立得，颜色随你换，唱片可以透明或渐变透明。一键完整随机开始得更快，切歌不再闪白。
+- **Widget styles under the Minimal set:** pick a style for one widget and it keeps it while the rest stay minimal; click *Minimal* again to bring them all back.
+  「极简」套装下也能单独给组件换样式：其他组件照样极简；再点一次「极简」全部回来。
+- Play in YouTube Music, and search singers or browse picks from the playlist panel.
+  可以用 YouTube Music 播放，在歌单面板搜歌手、逛推荐。
+- Lyrics are found for songs listed under a translated title, and you can search by hand.
+  日韩歌用中文歌名也能找到原版歌词，也可以手动搜。
+- Minimise the player window to send it back to the background. Calendar marks fade once they've passed and are removed a month later.
+  播放器窗口按最小化就藏回后台。日历上过了的标记会变淡，一个月后自动删除。
+
 ## 1.0.2 — 2026-11-27
 
 - **Fixed a crash when adding a program** (or picking a file / colour in a Windows dialog). MyDock's crash logger treated harmless errors inside Windows' own dialogs as crashes and, by recording every thread hundreds of times, crashed MyDock itself.
