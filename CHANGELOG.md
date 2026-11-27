@@ -2,6 +2,15 @@
 
 All versions are on the [Releases](https://github.com/NineSong0630/MyDock/releases) page. MyDock updates itself, so you don't need to download them by hand.
 
+## 1.0.2 — 2026-11-27
+
+- **Fixed a crash when adding a program** (or picking a file / colour in a Windows dialog). MyDock's crash logger treated harmless errors inside Windows' own dialogs as crashes and, by recording every thread hundreds of times, crashed MyDock itself.
+  修复添加程序（或在 Windows 对话框里选文件 / 选颜色）时 MyDock 闪退：崩溃记录器把 Windows 对话框内部无害的错误当成崩溃，反复记录所有线程，结果自己把 MyDock 弄崩了。
+- **Starts faster:** the Dock shows first and everything else loads right after; the app is about 45 MB smaller (unused parts of Qt left out), so there's less to read and scan when Windows starts. Installer 47 → 33 MB.
+  启动更快：先显示 Dock，其他部分随后加载；去掉用不到的 Qt 组件，程序小了约 45 MB，开机时要读取和扫描的文件更少。安装包从 47 MB 降到 33 MB。
+- crash.log no longer grows forever.
+  crash.log 不再无限变大。
+
 ## 1.0.1 — 2026-11-27
 
 - **Dock no longer vanishes when you switch apps.** On some PCs (older Windows, Wallpaper Engine) the Dock, widgets, notes and boxes could slip behind the wallpaper; they now stay right above the desktop and are put back after every switch. Alt+Tab, Task View and Start are no longer mistaken for a fullscreen game.
