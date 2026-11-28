@@ -6,7 +6,7 @@
 
 [English](../README.md) · 简体中文
 
-<img src="images/hero.png" alt="MyDock 桌面效果" width="100%">
+<img src="images/demo.gif" alt="MyDock 桌面效果：鼠标经过图标放大，组件和 Dock 跟着壁纸换颜色" width="100%">
 
 </div>
 

@@ -10,7 +10,7 @@
 
 English · [简体中文](docs/README.zh-CN.md)
 
-<img src="docs/images/hero.png" alt="MyDock on a desktop: the Dock, a clock, a calendar, a music card and a system monitor" width="100%">
+<img src="docs/images/demo.gif" alt="MyDock on a desktop: icons grow under the mouse, and the widgets and Dock take their colours from the wallpaper" width="100%">
 
 </div>
 
