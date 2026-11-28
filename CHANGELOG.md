@@ -2,6 +2,19 @@
 
 All versions are on the [Releases](https://github.com/NineSong0630/MyDock/releases) page. MyDock updates itself, so you don't need to download them by hand.
 
+## 1.0.4 — 2026-11-28
+
+- **Share your desktop theme.** Pack your look, layout and wallpaper into one file for a friend. Positions fit any screen size; Wallpaper Engine workshop wallpapers go as a link and are put on by themselves once Steam has them; Rainmeter skins are packed when their licence allows. Your apps, playlists, keys, city and notes stay out, and the preview hides them too.
+  「分享桌面主题」：外观、排版和壁纸打包成一个文件发给朋友。位置按对方屏幕大小摆好；创意工坊壁纸附链接，Steam 下载好后自动换上；授权允许的 Rainmeter 皮肤会打包进去。你的程序、歌单、密钥、城市和便利贴不会带上，预览图里也看不到。
+- **Match wallpaper colours sets a whole look:** cards, accent, Dock and beat bars together. Every wallpaper offers *Another set*, colours follow a new wallpaper within a second or two, and switching it off brings your own colours back. It stays off unless you turn it on.
+  「跟壁纸自动配色」配好一整套：卡片、点缀色、Dock 和律动条一起换。每张壁纸都能「换一组」，换壁纸后一两秒就跟上，关掉就还原你原来的颜色。默认关闭。
+- **Music:** picking a playlist while other music plays switches to it; pause then play on your own Chrome tab carries on instead of opening your playlist; background play carries on after a restart, update or shutdown, but not once you've moved on to other music. Beat bars get a new *Gradient* colour mode next to Rainbow, Neon and Solid.
+  音乐：听别的音乐时点歌单会换过去；在自己的 Chrome 里暂停再播放会接着放，不再跳去开歌单；后台播歌在重启、更新、关机后会接着播，但你改听别的以后就不会。律动条新增「渐变」配色，和彩虹、霓虹、单色并列。
+- **Simpler settings:** common options up front, the rest under *More settings*; help text can be full, short or off. Widgets and boxes resize from all four edges and corners.
+  设置更简单：常用的放前面，其余收进「更多设置」；说明文字可以选详细、精简或关闭。组件和收纳格四条边、四个角都能拖着调大小。
+- **Fixes:** applying a layout template no longer clears your YouTube key, playlists or weather city; the music card's volume menu works again; a drawing error in a widget can no longer close MyDock; small white windows no longer flash up at start-up on some PCs; a config damaged by a power cut comes back from the latest backup.
+  修复：套用布局模板不再清掉 YouTube 密钥、歌单和天气城市；音乐卡片的音量菜单恢复正常；组件画图出错不会再让 MyDock 闪退；部分电脑开机时不再闪出小白窗；断电损坏的配置会自动用最近的备份恢复。
+
 ## 1.0.3 — 2026-11-27
 
 - **New Wallpaper page.** Pictures or video wallpapers, auto-change on a timer, built-in original wallpapers, and the song's cover as wallpaper while music plays. Wallpapers come in pages and groups, you can hide the ones you don't want, and a small note tells you what you picked.

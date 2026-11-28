@@ -2,7 +2,7 @@
 
 # MyDock
 
-**A magnifying Dock and good-looking desktop widgets for Windows.**
+**A magnifying Dock, good-looking desktop widgets, live wallpapers and a music card for Windows, all in one small app.**
 
 [![Download](https://img.shields.io/github/v/release/NineSong0630/MyDock?label=Download&color=7c5cff)](https://github.com/NineSong0630/MyDock/releases/latest)
 ![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%7C%2011-3b82f6)
@@ -23,6 +23,7 @@ English · [简体中文](docs/README.zh-CN.md)
 - [Quick start](#quick-start)
 - [A tour of the settings](#a-tour-of-the-settings)
 - [The music card](#the-music-card)
+- [Share your desktop](#share-your-desktop)
 - [Desktop skins (Rainmeter)](#desktop-skins-rainmeter)
 - [FAQ](#faq)
 - [Privacy](#privacy)
@@ -33,12 +34,15 @@ English · [简体中文](docs/README.zh-CN.md)
 | | |
 |---|---|
 | **Dock** | Icons grow smoothly under the mouse. Several rows or pages when you have lots of apps. Live window previews, unread badges, and `Ctrl+Alt+1…0` to open the first ten apps. |
-| **Beat bar** | Bars above the Dock that move with whatever is playing. 10 styles, rainbow / neon / solid colours, and an optional large spectrum on the desktop. |
-| **Music card** | Shows the song playing in any app, with cover, controls and synced lyrics. Saves your playlists and can play a whole YouTube playlist in true random order. |
+| **Beat bar** | Bars above the Dock that move with whatever is playing. 10 styles, rainbow / neon / gradient / solid colours, and an optional large spectrum on the desktop. |
+| **Music card** | Shows the song playing in any app, with a sharp cover, controls and synced lyrics. Record, sleeve, cassette, CD and polaroid looks. Saves your playlists, plays them hidden in the background, and can play a whole YouTube playlist in true random order. |
+| **Wallpapers** | Pictures or videos as wallpaper, changing on a timer, or the song's cover while music plays. Plays Wallpaper Engine's videos smoothly without Wallpaper Engine running. |
+| **Match wallpaper colours** | One switch colours the cards, accent, Dock and beat bars after your wallpaper. Don't like it? *Another set*. Switch it off and your own colours come back. |
 | **Widgets** | Clock, calendar, weather, system monitor and sticky notes. Card, glass, glow and minimal looks; every widget can be moved, resized and recoloured. |
 | **Desktop boxes** | Drop files onto a box to tidy the desktop. Tabs inside each box; boxes can sit in the Dock. |
 | **Volume ball** | A small floating ball for volume and switching speakers. |
 | **Layout templates** | Save how everything looks now and switch to it later with one click. |
+| **Share your desktop** | Pack your look, layout and wallpaper into one file for a friend. It fits their screen size; your apps, playlists and keys stay out. |
 | **Auto-update** | A note slides in when a new version is out. One click updates it. |
 
 <p align="center">
@@ -75,7 +79,7 @@ English · [简体中文](docs/README.zh-CN.md)
 Open Settings by right-clicking an empty part of the Dock → **Settings**. Every change shows up right away.
 
 ### Appearance
-Theme, your own colour, *Match wallpaper colours*, icon size, magnification, spacing, rows, transparency and corner radius. The preview at the top updates as you go.
+Theme, your own colour, *Match wallpaper colours* (with *Another set* to try the next look), icon size, magnification, spacing, rows, transparency and corner radius. The preview at the top updates as you go.
 
 <p align="center"><img src="docs/images/appearance.png" alt="Appearance page" width="80%"></p>
 
@@ -101,6 +105,9 @@ Turn each widget on and set its own options. For the music card: style (cards, b
 
 <p align="center"><img src="docs/images/widgets.png" alt="Built-in widgets page" width="80%"></p>
 
+### Wallpaper
+Use your own pictures or videos, let them change on a timer, or show the song's cover while music plays. Videos you downloaded in Wallpaper Engine play straight from MyDock on the GPU, just as smooth, with less CPU and memory; Wallpaper Engine scenes are listed too and handed to Wallpaper Engine. Group wallpapers and hide the ones you don't want.
+
 ### Desktop skins
 Built-in skins you can recolour with one click, plus a 3-step guide for installing skins you download (see [Desktop skins](#desktop-skins-rainmeter)).
 
@@ -108,7 +115,7 @@ Built-in skins you can recolour with one click, plus a 3-step guide for installi
 Type a name and click **Save current layout**. Switch between your saved looks (for example *Work* and *Game night*) with one click, here or from the tray icon.
 
 ### General
-Start with Windows, language, help text, Dock position, display mode (*On desktop*, *Always on top*, *Auto-hide*), multiple screens, window previews, unread badges, keyboard shortcuts, backup / export / import and automatic updates.
+Start with Windows, language, help text (full, short or off), Dock position, display mode (*On desktop*, *Always on top*, *Auto-hide*), multiple screens, window previews, unread badges, keyboard shortcuts, backup, *Share desktop theme* and automatic updates.
 
 ## The music card
 
@@ -116,7 +123,7 @@ Start with Windows, language, help text, Dock position, display mode (*On deskto
   <img src="docs/images/music.png" alt="Music card styles: card, vinyl, lyrics and wide" width="80%">
 </p>
 
-The music card works with Spotify, NetEase Cloud Music, QQ Music, browsers (YouTube, etc.) and any other app that shows up in the Windows media controls. Pick a style from its right-click menu: **card**, **vinyl**, **lyrics**, **wide** or **cover**.
+The music card works with Spotify, NetEase Cloud Music, QQ Music, browsers (YouTube, etc.) and any other app that shows up in the Windows media controls. Pick a style from its right-click menu: **card**, **vinyl**, **lyrics**, **wide** or **cover**, then dress the record as a clear cassette, a record sleeve, a CD or a polaroid in any colour. When a player only gives a small blurry cover, MyDock finds a sharp one.
 
 <p align="center">
   <img src="docs/images/music_tools.png" alt="Playlist switcher and volume panel" width="70%">
@@ -126,7 +133,8 @@ The music card works with Spotify, NetEase Cloud Music, QQ Music, browsers (YouT
 
 1. Copy a playlist link from YouTube Music, YouTube, Spotify or SoundCloud.
 2. Right-click the music card → **Switch playlist…** → **+**. The link is read from your clipboard. The first time you use Spotify or YouTube Music, sign in once: right-click the card → **Music app** → show the player window.
-3. Switch playlists from the same list. Right-click a playlist to change its name, colour and icon.
+3. Switch playlists from the same list. Right-click a playlist to change its name, colour and icon. Picking a playlist while other music plays pauses that and switches to your list.
+4. Playlists play in a hidden background player with no window or taskbar icon. If you restart, update or shut down while it plays, it carries on from the same song next time.
 
 **Full shuffle for YouTube playlists (optional)**
 
@@ -141,6 +149,17 @@ The key is stored only on your PC and is only sent to Google's YouTube API.
 **Change the speaker for music only**
 
 Click the volume icon on the music card and switch on **Change the speaker for music only**. Then the speaker you pick there is used only by your music app. Games and Discord keep using your headset. Switch it off, or quit MyDock, and everything goes back to how it was.
+
+## Share your desktop
+
+**Settings → General → Share desktop theme** packs your desktop into one file you can send to a friend:
+
+- **Comes along:** the look and colours of the Dock and every widget, which ones are on or off, and where everything sits. Positions are kept relative to the screen edges, so a widget in the top-right corner of your 4K screen lands in the top-right of a friend's 1080p one.
+- **Wallpaper:** your own picture (or a video up to 300 MB) is packed in. A Wallpaper Engine workshop wallpaper is sent as a link: your friend clicks *Subscribe*, and MyDock puts it on as soon as Steam has downloaded it.
+- **Rainmeter skins** are packed in when their author's licence allows sharing; otherwise your friend gets a link to find them.
+- **Stays with you:** your Dock apps, playlists, YouTube key, weather city, sticky notes, calendar notes and templates.
+
+Your friend sees a preview picture before importing it. Your city, song and playlist names are hidden in the preview.
 
 ## Desktop skins (Rainmeter)
 
@@ -192,7 +211,7 @@ Click the weather widget and search for your city.
 <details>
 <summary><b>How do I move my setup to another PC?</b></summary>
 
-**Settings → General → Export** gives you one file. Use **Import** on the other PC. MyDock also keeps automatic backups (**Restore backup…**).
+For the look and layout: **Settings → General → Share desktop theme → Export…**, then **Import…** on the other PC. To bring everything, including your Dock apps, playlists and notes, copy the folder `%APPDATA%\MyDock` to the same place on the other PC while MyDock is closed. MyDock also keeps automatic backups (**Restore backup…**).
 </details>
 
 <details>
@@ -213,6 +232,7 @@ MyDock runs on your PC. It has no account, no ads and no analytics. It only goes
 
 - **Weather:** the city name or coordinates you chose are sent to [Open-Meteo](https://open-meteo.com/).
 - **Lyrics:** the song title and artist are sent to public lyrics services (LRCLIB, NetEase Cloud Music, QQ Music). Found lyrics are cached on your PC.
+- **Sharp covers:** when a player's cover is small, the song title and artist are sent to Apple's iTunes search, once per song, and the cover is cached on your PC (at most 50 MB). You can turn this off in the music card's settings.
 - **Full shuffle:** the playlist ID is sent with your own API key to the YouTube Data API.
 - **Updates:** it checks this repository's latest release on GitHub.
 
